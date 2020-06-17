@@ -1,0 +1,25 @@
+The run_analysis.R file has the following steps that were followed.
+
+Download the file
+
+unzip the file
+
+The steps are below:
+1. Merge the training and test datasets
+1.1 Read files
+1.1.1 Read training datasets
+1.1.2 Read test datasets
+1.1.3 read features and activity labels datasets
+1.2 assign column names to datasets
+1.3 merging all datasets
+2 Extracting only the measurements on the mean and std for each measurement
+2.1 reading column names
+2.2 Creating vector for defining the activityno_, subjectno_, mean and std
+2.3 Final extract
+
+3. Using descriptive activity names to name the activities in the dataset
+
+4. Appropriately labelling the the dataset with descriptive variable names. see 1.2, 1.3, 2.2, 2.3
+
+5.  Create a second, independent tidy dataset with the average of each variable for each activity and each subject   
+5.1 making second independent tidy dataset
