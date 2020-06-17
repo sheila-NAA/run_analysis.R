@@ -64,3 +64,5 @@ activitynames<- merge(meanandstd_dataset, activitylabels, by = "activityno_", al
 # 5.1 making second independent tidy dataset
 tidydata<- aggregate(. ~subjectno_ + activityno_, activitynames, mean)
 tidydata<- tidydata[order(tidydata$subjectno_, tidydata$activityno_),]
+
+write.table(tidydata,"tidydata.txt", row.names= FALSE)
