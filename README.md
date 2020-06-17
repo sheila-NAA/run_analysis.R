@@ -4,7 +4,7 @@ This is a repository for the getting and cleaning data project. It contains a co
 
 ## Files:
 
-The code vook contains the description of the codes and how they were used and variables.
+The code book contains the description of the codes and how they were used and variables.
 
 run_analysis.R contains all the codes and codes that were performed for the project.
 The steps followedare below:
