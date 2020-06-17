@@ -4,7 +4,7 @@ Download the file
 
 unzip the file
 
-The steps are below:
+# The steps are below:
 1. Merge the training and test datasets
 1.1 Read files
 1.1.1 Read training datasets
@@ -23,3 +23,9 @@ The steps are below:
 
 5.  Create a second, independent tidy dataset with the average of each variable for each activity and each subject   
 5.1 making second independent tidy dataset
+
+
+## About variables:   
+* `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data from the downloaded files.
+* `x_data`, `y_data` and `subject_data` merge the previous datasets to further analysis.
+* `features` contains the correct names for the `x_data` dataset, which are applied to the column names stored in
