@@ -1,8 +1,8 @@
-##Getting_and_Cleaning_Data_Week_4_Assignment.
+# Getting_and_Cleaning_Data_Week_4_Assignment.
 
 This is a repository for the getting and cleaning data project. It contains a codebook and tidy dataset.
 
-##Files:
+## Files:
 
 The code vook contains the description of the codes and how they were used and variables.
 
